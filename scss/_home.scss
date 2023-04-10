@@ -1,0 +1,37 @@
+/* Home */
+#home {
+  background-image: url(../images/main-bg.jpg);
+  min-height: 100vh;
+
+  .page-title {
+    text-transform: none;
+  }
+
+  .home-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 10%;
+
+    p {
+      font-size: 1.125rem;
+      margin: 10px 0 42px;
+    }
+  }
+
+  #home-footer {
+    position: absolute;
+    bottom: 0;
+    background: transparent;
+    text-align: center;
+    width: 100vw;
+    margin-top: 40px;
+    padding: 0;
+
+    p {
+      color: $main-text-color;
+    }
+  }
+}

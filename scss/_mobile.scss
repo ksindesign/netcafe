@@ -1,0 +1,164 @@
+/* Mobile */
+
+@media screen and (max-width: 780px) {
+  .home-content .page-title,
+  #news .page-title,
+  #menu .page-title,
+  #contact .page-title {
+    font-size: 2.5rem;
+  }
+
+  /* HEADER */
+  .main-nav {
+    font-size: 1rem;
+    margin-top: 10px;
+
+    li {
+      margin: 0 20px;
+    }
+
+    .active {
+      /* font-weight: bold; */
+      color: #fff;
+      background-color: $main-element-color;
+      padding: 0.3rem;
+    }
+  }
+
+  /* HOME */
+  .home-content {
+    margin-top: 20%;
+  }
+
+  .page-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* News */
+  .news-content {
+    flex-direction: column;
+  }
+
+  article,
+  aside {
+    width: 100%;
+  }
+
+  #news .page-title {
+    margin-top: 30px;
+  }
+
+  aside {
+    margin-top: 60px;
+  }
+
+  .post-info {
+    margin-bottom: 30px;
+  }
+
+  .post-date {
+    width: 70px;
+    height: 70px;
+    font-size: 1rem;
+
+    span {
+      font-size: 0.875rem;
+      padding-top: 2px;
+    }
+  }
+
+  .page-title {
+    font-size: 1.375rem;
+  }
+
+  .post-cat {
+    font-size: 0.875rem;
+    margin-top: 10px;
+  }
+
+  .post-title,
+  .post-cat {
+    margin-left: 80px;
+  }
+
+  /* Menu */
+  #menu {
+    .menu-content {
+      margin-top: 20%;
+    }
+  }
+
+  .grids {
+    .grid {
+      display: flex;
+      flex-direction: column;
+
+      .big-box {
+        margin-top: 1rem;
+      }
+    }
+  }
+
+  /* Contact */
+
+  #contact {
+    .page-title {
+      margin-top: 40px;
+      margin-bottom: 1rem;
+    }
+
+    & > .wrapper {
+      height: 20vh;
+
+      form {
+        input[type="text"],
+        input[type="email"],
+        textarea {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+
+  #location {
+    .location-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+    }
+  }
+
+  #location .line {
+    border-bottom: 1px solid #ccc;
+    width: 80%;
+    margin: 0.5rem 0 1rem;
+  }
+
+  #location .wrapper,
+  #sns .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #sns {
+    .wrapper {
+      width: 100vw;
+      padding: 1rem;
+
+      .sns-box {
+        margin-bottom: 30px;
+        width: 100%;
+      }
+
+      .grid-yt iframe {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}

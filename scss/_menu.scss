@@ -1,0 +1,46 @@
+/* Menu */
+#menu {
+  background: url(../images/menu-bg.jpg) no-repeat center/cover;
+  background-color: rgba(255, 255, 255, 0.2);
+  background-blend-mode: soft-light;
+  height: 100vh;
+  margin-bottom: 2rem;
+
+  .menu-content {
+    max-width: 560px;
+    margin-top: 10%;
+
+    .page-title {
+      text-align: center;
+    }
+
+    p {
+      font-size: 1.125rem;
+      margin: 10px 0 0;
+    }
+  }
+}
+
+/* Menu Grid */
+.grids {
+  .wrapper {
+    margin-bottom: 2rem;
+  }
+
+  .grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+    .big-box {
+      grid-column: 1 / 3;
+      grid-row: 1 / 3;
+
+      img {
+        height: 94%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
